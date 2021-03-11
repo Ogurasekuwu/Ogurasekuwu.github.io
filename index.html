@@ -1,49 +1,22 @@
-# Ogurasekuwu.github.io
 <html>
 <head>
-<meta http-equiv="content-type" content="text/html;charset=iso-8859-2">
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title> Formularz </title>
 </head>
 <body>
-<table border="2" style="width:400px;height:400px;text-align:center;" bgcolor=#00FF7F>
-<tr>
-<td colspan="3" bgcolor=#2E8B57><i>Alicja Ogórek</i></td>
-</tr>
-<tr>
-<td bgcolor=#00FF7F>Element 1.1</td>
-<td bgcolor=3CB371>Element1.2</td>
-<td>Element 1.3</td>
-</tr>
-<tr>
-<td colspan="3" bgcolor=#2E8B57><b>Element 2.1-2.3</td>
-</tr>
-<tr height=60%>
-<td>Element 3.1
-<center><table border="1" style="width:100px; height:100px; text-align:center;" bgcolor=#2E8B57>
-<tr>
-<td><font color=#FF0000>5.2</font></td>
-<td><font color=#FFA500>5.3</font></td>
-</tr>
-</tr>
-</table></center>
-</td>
-<td bgcolor=#3CB371>Element 3.2</td>
-<td>Element 3.3
-<center>
-<table border="1" style="width:100px; height:100px; text-align:center;" bgcolor=#2E8B57>
-<tr>
-<td><font color=#FFFF00>A1</font></td>
-<td><font color=#008000>A2</font></td>
-<td><font color=#0000FF>A3</font></td>
-</tr>
-<tr>
-<td><font color=#00008B>B1</font></td>
-<td><font color=#800080>B2</font></td>
-<td><font color=#FFDAB9>B3</font></td>
-</tr>
-</table>
-</center>
-</td>
-</tr>
-</table>
+<form method="post" enctype="text/plain" action="alarikkeneko@gmail.com">
+<table border="1">
+<tr><td>Dane osobowe<br><br>
+Imię:<input type="text" name="imie"><br><br>
+Nazwisko:<input type="text" name="nazwisko"><br><br>
+Data urodzenia:<input type="data" pattern="^\d{2}=\d{2}-\d{4}$" placeholder="dd.mm.rrrr"><br><br>
+Miejsce urodzenia:<input type="text" name="miejsce"><br></tr></td></table><br>
+<table border="1">
+<tr><td>Pozostałe informacje<br><br>
+Wykształcenie:<input type="radio" name="wyksztalcenie">podstawowe<input type="radio" name="wyksztalcenie">średnie<input type="radio" name="wyksztalcenie">wyższe<br><br>
+Zawód<br>wykonywany:<input type="text" name="zawod"><br><br>
+Dodatkowe umiejętności:<br><textarea rows="15" cols="30">Wpisz umiejętności</textarea><br></tr></td></table><br><br>
+<tr><td><input type="reset" value="Od nowa"></td>  <td><input type="submit" value="Wyślij"></td></tr>
+</form>
 </body>
 </html>
