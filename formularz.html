@@ -1,0 +1,73 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>Dinusie!</title>
+<style>
+body {
+background-image:url("tlo_na_strone.jpg"); //poprawić
+background-repeat:round;
+color:#FDA07F;
+text-align:center;
+white-space:pre-wrap;
+font-family:Verdana;
+font-size:large;
+}
+#panel_srodkowy {
+background-color:#FFD2C3;
+width:70%;
+height:180%;
+}
+table {
+width:930px;
+height:60px;
+border:8px #FDA07F double;
+text-align:center;
+border-spacing:2px;
+}
+p {
+text-align:left;
+}
+</style>
+</head>
+<body>
+<center>
+<div id="panel_srodkowy">
+<img src="baner_na_strone.jpg">
+<table><tr>
+<td><a href="index.html">Strona główna</a></td>
+<td><a href="stronacss2.html">Era dinozaurów</a></td>
+<td><a href="stronacss3.html">Dinozaur miesiąca</a></td>
+</tr></table>
+<b>Formularz zgłoszeniowy</b><br>
+<form action="alarikkeneko@gmail.com" method="post" enctype="text/plain"><div><p>
+<b>Podaj nazwę dinozaura:</b><input name="nazwa"><br>
+<b>Podaj długość dinozaura:</b><input name="długość"><br>
+<b>Kiedy żył?</b> (okres) <select name="mezozoik">
+	<option selected>Trias</option>
+	<option>Jura</option>
+	<option>Kreda</option></select><br>
+<b>Podaj dietę dinozaura:</b>
+<input type="radio" name="dieta" value="mięsożerca">mięsożerca
+<input type="radio" name="dieta" value="wszystkożerca">wszystkożerca
+<input type="radio" name="dieta" value="roślinożerca">roślinożerca<br>
+<b>Gdzie został znaleziony?</b> (wielokrotny wybór)
+<input type="checkbox" name="miejsce" value="USA">USA
+<input type="checkbox" name="miejsce" value="RPA">RPA
+<input type="checkbox" name="miejsce" value="Chiny">Chiny
+<input type="checkbox" name="miejsce" value="Kanada">Kanada
+<input type="checkbox" name="miejsce" value="Argentyna">Argentyna
+<input type="checkbox" name="miejsce" value="Niger">Niger
+<input type="checkbox" name="miejsce" value="Anglia">Anglia
+<input type="checkbox" name="miejsce" value="Francja">Francja
+<input type="checkbox" name="miejsce" value="Mongolia">Mongolia
+<input type="checkbox" name="miejsce" value="Niemcy">Niemcy
+<input type="checkbox" name="miejsce" value="Japonia">Japonia
+<input type="checkbox" name="miejsce" value="Inna">Inne:<input name="miejsce"><br>
+<b>Dlaczego właśnie twojego dinozaura mamy wybrać?</b><br>
+<textarea name="Komentarz" cols="50" rows="10">Napisz tutaj!</textarea><br>
+<input type="submit" value="Wyślij formularz"><input type="reset" value="Wyczyść dane"></p>
+</div></form>
+</div>
+</center>
+</body>
+</html>
