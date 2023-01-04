@@ -1,0 +1,70 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>Park dinozaurów</title>
+<style>
+body {
+	background-image:url("tlo.jpg");
+	background-repeat:initial;
+	color: #006600;
+	text-align:center;
+	white-space:pre-wrap;
+	font-family: Comic Sans MS, Comic Sans, cursive;
+	font-size: medium;}
+#baner {
+	padding-top: 2%;
+	height: 90%;
+	background-color: none;
+	text-align: center;}
+#panel_srodkowy {
+	background-color:#33ff33;
+	width:65%;
+	height:200%;
+	border-radius: 15px;}
+table {
+	width:70%;
+	height:5%;
+	text-align:center;
+	border-spacing:2px;
+	font-size: large;
+	border-radius: 15px;
+	background-color: #80ff80;}
+img {
+	border-radius: 15px;}
+p {
+	margin-left: 10px;
+	margin-right: 10px;}
+img.zoom {
+	transition: transform 0.3s;}
+img.zoom:hover { 
+	transform: scale(1.25);}
+</style>
+</head>
+<body>
+<center>
+<div id="baner">
+<img src="baneranimacja.gif">
+</div>
+<div id="panel_srodkowy">
+<table><tr>
+	<td><a href="index.html">Strona główna</a></td>
+	<td><a href="mapa.html">Mapa Parku</a></td>
+	<td><a href="kontakt.html">Kontakt</a></td>
+</tr></table>
+<img src="park6.jpg" width="750" height="450">
+<p>Możesz skontaktować się z nami przez:
+Numer telefonu: +48 764 342 981
+E-mail: parkdinozaurow@gmail.com </p>
+<p>Chciałbyś kupić bilety z wyprzedzeniem? Zamów je tu u nas na stronie.
+Dzieci do lat 8 wchodzą za darmo :)<br>
+<b>Promocja! Zamów bilety do końca miesiąca a otrzymasz zniżkę 30% na całe zamówienie oraz wybranego pluszaka w sklepie z pamiątkami do 30 zł!</b></p><br>
+<form action="mailto:parkdinozaurow@gmail.com?subject=bilety" method="post">
+<p>Numer telefonu lub E-mail: <input type="text" name="te" size="30" maxlength="40"></p>
+ <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"><label for="vehicle1"> bilet ulgowy - 12 zł</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car"><label for="vehicle2"> bilet normalny - 18 zł</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat"><label for="vehicle3">bilet dla dziecka do lat 8 - za darmo</label>
+<p><input type="reset" value="wyczyść"> <input type="submit" value="wyślij"></p>
+<p>Dalsze informacje co do płatności za bilety zostana wysłane na podany wyżej E-mail.
+W razie dodatkowych pytań prosimy o kontakt z nami za pomocą telefonu lub poczty elektronicznej :)</p>
+</body>
+</html>
